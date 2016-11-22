@@ -1,0 +1,85 @@
+#game {	
+    width: 500px;  /* enchant.jsのGameオブジェクトの作成時に設定したゲーム画面サイズ */
+    height: 500px;
+    margin: 0 auto 0 auto;
+    border: 1px solid #000000;
+}
+
+html {
+	text-align: center;
+    background-size: cover;
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#up .atama{
+	height: 90px;
+	width: 500px;
+	margin: 30px auto;
+	border: ridge 8px #00ccff;
+	background-color: #88ccff;
+}
+
+#up .atama h1{
+	font-size: 200%;
+	text-align: center;
+	color: #770000;
+	font-weight: bold;
+	font-style: italic;
+	font-family: "MS ゴシック";
+}
+
+#p1{
+	font-size: 160%
+}
+
+h3{
+	color: purple;
+}
+
+input#button {
+	padding: 10px 30px;
+	color: #ffffff;
+	font-size: 1.1em;
+	font-weight: bold;
+	background-color: #224488;
+	box-shadow: 3px 3px 4px 2px #666666;
+	text-shadow: 1px 1px 2px #000000;
+	border-radius: 8px;
+}
+
+input#button.hover{
+	opacity: 0.8;
+}
+
+#top .text{
+    float: ;
+    font-size: 100%;
+    border: groove 2px #000000;
+    background-color: #aaddff;
+    margin: 10px auto;
+    padding: 5px 10px 5px 10px;
+    width: 600px;
+}
+
+#end .text{
+	font-size: 200%;
+	border: none;
+	color: #ff66ff;
+}
+
+#down .atama{
+	height: 130px;
+	width: 700px;
+	margin: 10px auto;
+	border: groove 4px #ff4f02;
+	background-color: #000000;
+}
+
+#down .atama h1{
+	text-align: center;
+	font-size: 300%;
+	font-style: italic;
+	color: yellow;
+}
